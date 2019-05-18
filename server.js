@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 app.get('/sample_data', (req, res) => {
   const samepleData = {
-    username: 'hello world',
+    username: 'hello chatcha',
     id: '1234',
   };
 
