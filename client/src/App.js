@@ -55,7 +55,7 @@ class App extends Component {
         </p>
         <h3>Sample Data returned from Express: /sample_data endpoint</h3>
         <div className="sample-data-container">
-          { this.renderSampleData() }
+          <Clock/>
         </div>
       </div>
     );
@@ -64,5 +64,6 @@ class App extends Component {
 
 export default App;
 /*
+          { this.renderSampleData() }
 
 */
